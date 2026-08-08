@@ -1,0 +1,7 @@
+# Legacy Identifier 与 Current Identifier 不一致时的显式映射。
+# 原则：宁可不合并，也不能误合并。
+# 只有 Apple 数据确认同一 Challenge 时才添加条目。
+aliases:
+  # LEGACY_SOME_IDENTIFIER_2020:
+  #   canonical: SOME_IDENTIFIER_2020
+  {}

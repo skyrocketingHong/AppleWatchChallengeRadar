@@ -1,0 +1,41 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+
+# ---- 测试与静态检查 ----
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ---- 敏感配置（通知令牌等，勿提交） ----
+.env
+*.env
+
+# ---- 运行时产物 ----
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+var/
+output/
+*.log
+
+# ---- macOS ----
+.DS_Store
+
+# ---- IDE / 编辑器 ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

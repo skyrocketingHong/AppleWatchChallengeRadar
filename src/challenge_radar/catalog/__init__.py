@@ -1,0 +1,1 @@
+"""Catalog layer: fetching and source-level diffing."""

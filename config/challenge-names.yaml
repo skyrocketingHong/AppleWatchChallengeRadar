@@ -1,0 +1,42 @@
+# Apple Challenge Identifier 前缀 → 展示名称
+# 未知 Identifier 直接显示 Canonical ID，不影响 ICS 生成。
+names:
+  NEW_YEAR:
+    zh: 新年圆环挑战
+    en: Ring in the New Year
+
+  HEART_MONTH:
+    zh: 心脏月挑战
+    en: Heart Month Challenge
+
+  EARTH_DAY:
+    zh: 地球日挑战
+    en: Earth Day Challenge
+
+  DANCE_DAY:
+    zh: 国际舞蹈日挑战
+    en: International Dance Day Challenge
+
+  RUNNING_DAY:
+    zh: 全球跑步日挑战
+    en: Global Running Day Challenge
+
+  YOGA_DAY:
+    zh: 国际瑜伽日挑战
+    en: International Day of Yoga Challenge
+
+  CHINA_FITNESS_DAY:
+    zh: 全民健身日挑战
+    en: National Fitness Day Challenge
+
+  NATIONAL_PARKS:
+    zh: 国家公园挑战
+    en: National Parks Challenge
+
+  VETERANS_DAY:
+    zh: 退伍军人节挑战
+    en: Veterans Day Challenge
+
+  MEDITATION_DAY:
+    zh: 世界冥想日挑战
+    en: World Meditation Day Challenge

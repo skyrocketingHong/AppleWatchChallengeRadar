@@ -1,0 +1,1 @@
+"""Source adapters: Legacy Achievements and Current ActivityChallengeAssets."""

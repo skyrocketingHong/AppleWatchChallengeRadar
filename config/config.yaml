@@ -1,0 +1,79 @@
+sources:
+  legacy:
+    enabled: true
+    sourceName: legacy
+    assetType: "com.apple.MobileAsset.Activity.Achievements"
+    catalogUrl: "https://mesu.apple.com/assets/com_apple_MobileAsset_Activity_Achievements/com_apple_MobileAsset_Activity_Achievements.xml"
+
+  current:
+    enabled: true
+    sourceName: current
+    assetType: "com.apple.MobileAsset.ActivityChallengeAssets"
+    catalogUrl: "https://mesu.apple.com/assets/com_apple_MobileAsset_ActivityChallengeAssets/com_apple_MobileAsset_ActivityChallengeAssets.xml"
+
+paths:
+  state: "/var/lib/apple-watch-challenge-radar"
+  output: "/var/www/apple-watch-challenges"
+
+calendar:
+  language: "zh-CN"
+
+  titlePrefix: "⌚ Apple Watch｜"
+
+  uidDomain: "watch.example.com"
+
+  includeRawPredicate: true
+
+  alarms:
+    enabled: true
+    offsets:
+      - "-P1D"
+      - "PT0H"
+
+feeds:
+  all:
+    enabled: true
+
+  history:
+    enabled: true
+
+  upcoming:
+    enabled: true
+
+  global:
+    enabled: true
+
+  cn:
+    enabled: true
+    includeGlobal: true
+    regions:
+      - CN
+
+  us:
+    enabled: true
+    includeGlobal: true
+    regions:
+      - US
+
+notifications:
+  enabled: true
+
+  events:
+    newChallenge: true
+    updatedChallenge: true
+    removedFutureChallenge: true
+
+  providers:
+    webhook:
+      enabled: false
+      url: ""
+
+    bark:
+      enabled: false
+      server: ""
+      deviceKey: ""
+
+    ntfy:
+      enabled: false
+      server: ""
+      topic: ""

@@ -1,0 +1,1 @@
+"""ICS calendar generation: events, feeds, atomic writes and validation."""

@@ -1,0 +1,26 @@
+# Apple workout type 数字 ID → 名称映射
+# Predicate Parser 不得硬编码类型，统一从此配置读取。
+types:
+  14:
+    key: dance
+    zh: 舞蹈
+
+  37:
+    key: running
+    zh: 跑步
+
+  57:
+    key: yoga
+    zh: 瑜伽
+
+  71:
+    key: wheelchairRunPace
+    zh: 轮椅跑步
+
+  77:
+    key: cardioDance
+    zh: 有氧舞蹈
+
+  78:
+    key: socialDance
+    zh: 社交舞蹈

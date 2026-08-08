@@ -1,0 +1,11 @@
+name: apple-watch-challenge-radar
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - icalendar
+      - PyYAML

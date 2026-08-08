@@ -1,0 +1,1 @@
+"""Normalization layer: raw source payloads -> Canonical Challenge Model."""

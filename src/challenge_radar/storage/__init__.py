@@ -1,0 +1,1 @@
+"""Storage layer: SQLite schema, database access and change history."""
