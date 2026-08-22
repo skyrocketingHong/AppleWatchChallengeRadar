@@ -70,7 +70,7 @@ class CatalogFetcher:
             if current.read_bytes() == content:
                 return  # byte-identical; no rotation needed
             tmp_prev = self.catalog_dir / "previous.plist.tmp"
-            tmp_prev.write_bytes(content=current.read_bytes())
+            tmp_prev.write_bytes(current.read_bytes())
             tmp_prev.replace(previous)
 
         tmp = self.catalog_dir / "current.plist.tmp"
