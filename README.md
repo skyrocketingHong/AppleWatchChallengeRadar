@@ -186,3 +186,9 @@ pyproject.toml             Package metadata and development dependencies
 ## License
 
 This project is licensed under the [GNU Affero General Public License v3.0](./LICENSE). If you run a modified version as a network service, you must make the corresponding source code available to its users under AGPL-3.0.
+
+## AI-Assisted Development
+
+Generative AI was used to assist with coding during the development of this project.
+
+[![Vibe PR](https://raw.githubusercontent.com/fenxer/llm-things/main/stickers/vibe-pr.svg)](https://github.com/fenxer/llm-things/blob/main/stickers/vibe-pr.svg)
